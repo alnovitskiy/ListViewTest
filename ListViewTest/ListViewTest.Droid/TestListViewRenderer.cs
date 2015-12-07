@@ -23,8 +23,8 @@ namespace ListViewTest.Droid
         protected override void OnElementChanged(ElementChangedEventArgs<Xamarin.Forms.ListView> e)
         {
             base.OnElementChanged(e);
-            Control.ItemLongClick += OnItemLongClick;
-            Control.ItemLongClick -= OnItemLongClick;
+            /*Control.ItemLongClick += OnItemLongClick;
+            Control.ItemLongClick -= OnItemLongClick;*/
         }
 
         private void OnItemLongClick(object sender, AdapterView.ItemLongClickEventArgs e)
